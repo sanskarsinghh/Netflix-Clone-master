@@ -1,49 +1,44 @@
-# Netflix Clone
+🎬 Netflix-Clone 🎥
 
-- Demo: <https://netflix-clone-ebon-nu.vercel.app/>
+Welcome to the Netflix-Clone, a streaming application built using React!
 
-This project is a simplified front end clone of Netflix. It was created with React and CSS (Grid and Flexbox). It uses [The MovieDB Api](https://www.themoviedb.org/documentation/api) to search for movies and display details. Feel free to contribute!
+This project is a responsive web application that provides users with the ability to browse, search, and stream their favorite movies and TV shows. The application utilizes a modern UI/UX design that is visually appealing and user-friendly.
+🚀 Getting Started
 
-### TODO's
+To get started, clone this repository and run the following command:
 
-- [ ] Implement Not Found page styles
-- [ ] Implement navigation header links functionality
-- [ ] Update modal to current styling
-- [ ] Update carousel to current styling
-- [ ] Create movie page
-- [ ] Create user account page
-- [x] Migrate to Typescript
-- [ ] Implement dynamic code splitting with dynamic imports
-- [x] Setup storybook
-- [ ] Implement internationalization with react-i18next
-- [ ] Exclude storybook files from test coverage
+npm install
 
-### Tools used
+Once the installation is complete, you can run the application using:
 
-- Webpack v5
-- Axios
-- Redux & React
-- Sass (grid & flexbox)
-- Media queries
-- Swiper JS
+sql
 
-### Runing Project Locally
+npm start
 
-- Install dependencies: run `npm install` in root project
-- Get API key from [here](https://www.themoviedb.org/documentation/api)
-- Create .env file in root project and add: `API_KEY=YOUR_API_KEY_HERE`
-- Run project: `npm run dev`
+This will start the application and open it in your browser at http://localhost:3000.
+💻 Technologies Used
 
-### User Stories
+The Netflix-Clone was built using the following technologies:
 
-- User can search for movies and TV shows on TMDb
-- User can the see upcoming and trending movies. Data updates weekly
-- User can click on a movie and a modal should pop up. It should display the title, release date, overview, and runtime.
-- The webpage adapts to any screen size.
+    React
+    Redux
+    Firebase
+    CSS3
+    HTML5
+    JavaScript
 
-### Video Walktrough
+🎥 Features
 
-![](https://github.com/AndresXI/Netflix-Clone/blob/master/netflix-demo.gif?raw=true)
+The Netflix-Clone includes a number of features that make it a great choice for streaming your favorite movies and TV shows. Some of the key features of this application include:
 
-Please feel free to create a pull request and submit any issues!
-Currently looking for backend developers. If you would to contribute to support a backend, reach out, all ideas are welcomed!
+    User Authentication
+    Search Functionality
+    Streamlined UI/UX Design
+    Responsive Layout
+    Movie and TV Show Trailers
+    Personalized Watchlist
+    Popular Titles Section
+
+📚 Additional Information
+
+If you have any questions or would like to learn more about this project, please feel free to browse the code or contact the project owner. We hope you enjoy using the Netflix-Clone as much as we enjoyed building it!
